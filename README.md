@@ -1,6 +1,6 @@
-# scalajs-nodejs-template
+# scalajs-deno-template
 
-compile and run scalajs to target on nodejs
+compile and run scalajs to target on deno
 
 ## TODO
 
