@@ -1,7 +1,7 @@
 enablePlugins(ScalaJSPlugin)
 
 name := "scalajs deno example"
-scalaVersion := "2.13.4" // or any other Scala version >= 2.10.2
+scalaVersion := "2.13.5" // or any other Scala version >= 2.10.2
 
 // This is an application with a main method
 scalaJSUseMainModuleInitializer := true

@@ -21,7 +21,7 @@ def dist(c):
     """dist"""
     c.run('mkdir -p dist')
     c.run(
-        f"deno compile --unstable --lite -o dist/example target/scala-2.13/{P}/main.js")
+        f"deno compile -A --unstable --lite -o dist/example target/scala-2.13/{P}/main.js")
 
 
 @task(dist)
